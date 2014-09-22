@@ -2,12 +2,12 @@
 
 $font-family-sans-serif: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-height: 45px;
-$body-bg: #bdc3c7;
+$body-bg: #ecf0f1;
 $navbar-inverse-bg: #2c3e50;
 $navbar-inverse-link-color: #ecf0f1;
 $brand-primary: #f1c40f;
 $navbar-inverse-brand-color: #f1c40f;
-$jumbotron-bg: #ecf0f1;
+$jumbotron-bg: white;
 
 
 @import 'bootstrap';
@@ -19,4 +19,9 @@ $jumbotron-bg: #ecf0f1;
 
 .navbar-brand {
      font-weight: bold;
+}
+
+.checkbox #user_remember_me { 
+	margin-left: 0;
+
 }
